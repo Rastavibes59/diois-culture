@@ -2,7 +2,7 @@
   "events": [
     {
       "id": 123,
-      "category": "animal welfare",
+      "categoryId": 221,
       "title": "Cat Adoption Day",
       "description": "Find your new feline friend at this event.",
       "locationID": 1,
@@ -12,7 +12,7 @@
     },
     {
       "id": 456,
-      "category": "food",
+      "categoryId": 222,
       "title": "Community Gardening",
       "description": "Join us as we tend to the community edible plants.",
       "locationID": 2,
@@ -22,7 +22,7 @@
     },
     {
       "id": 789,
-      "category": "sustainability",
+      "categoryId": 223,
       "title": "Beach Cleanup",
       "description": "Help pick up trash along the shore.",
       "locationID": 3,
@@ -54,7 +54,7 @@
     {
       "id": 221,
       "name": "Category 1",
-      "subcategories": [
+      "subCategories": [
         {
           "id" : 1254,
           "name": "Sub Category 1"
@@ -76,7 +76,7 @@
     {
       "id": 222,
       "name": "Category 2",
-      "subcategories": [
+      "subCategories": [
         {
           "id" : 3254,
           "name": "Sub Category 1"
@@ -98,7 +98,7 @@
     {
       "id": 223,
       "name": "Category 3",
-      "subcategories": [
+      "subCategories": [
         {
           "id" : 4254,
           "name": "Sub Category 1"
@@ -120,7 +120,7 @@
     {
       "id": 224,
       "name": "Category 4",
-      "subcategories": [
+      "subCategories": [
         {
           "id" : 5254,
           "name": "Sub Category 1"
@@ -139,6 +139,5 @@
         }
       ]
     }
-
   ]
 }
